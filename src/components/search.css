@@ -1,0 +1,23 @@
+.taskInput {
+  outline: none;
+  width: 150px;
+  padding: 5px;
+  font-size: 15px;
+  color: burlywood;
+  background-color: black;
+  border-radius: 10px;
+  border: 1px solid burlywood;
+}
+
+.content-search {
+  color: white;
+  display: flex;
+  width: 100%;
+  gap: 30px;
+  align-items: center;
+}
+
+.content-options {
+  display: flex;
+  gap: 10px;
+}

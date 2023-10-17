@@ -1,0 +1,64 @@
+.container {
+  /* background: #d5a675; */
+  width: 100%;
+  /* min-height: 100vh; */
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.appwrapper {
+  background: #552b2b;
+  min-width: 650px;
+  min-height: 80px;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 2px;
+  box-shadow: 3px 6px 40px #000;
+  color: white;
+  text-align: center;
+}
+
+.saldoInicial {
+  margin-right: 30px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header input {
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid rgb(152, 150, 150);
+  text-align: center;
+  padding: 4px 0px;
+}
+
+.iconDollar {
+  position: absolute;
+  margin: 2px;
+  color: green;
+  font-size: larger;
+}
+
+.contador {
+  background: black;
+  color: white;
+  font-weight: bold;
+  width: 50px;
+  border-radius: 10px;
+}
+
+.contentSaldos {
+  display: flex;
+  gap: 30px;
+}
+
+.headerCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

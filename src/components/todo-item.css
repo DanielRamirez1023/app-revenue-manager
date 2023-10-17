@@ -1,0 +1,41 @@
+.list {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+  padding: 4px;
+  min-height: 30px;
+  color: white;
+  font-size: large;
+  align-items: center;
+}
+
+.list p {
+  margin: 0px;
+}
+
+.cantidad {
+  padding: 2px 15px;
+  border-radius: 10px;
+  width: 50px;
+  text-align: center;
+}
+
+.ingreso {
+  background: green;
+}
+
+.gasto {
+  background: red;
+}
+
+.list button {
+  width: 35px;
+  height: 35px;
+  margin: 2px;
+  font-size: medium;
+  border: 1px solid rgb(115, 110, 110);
+  background: white;
+  border-radius: 10px;
+  cursor: pointer;
+  color: black;
+}

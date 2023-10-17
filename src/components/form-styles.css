@@ -1,0 +1,52 @@
+.form {
+  height: 50vh;
+  width: 30vw;
+  margin-right: 15px;
+  background-color: #12343b;
+  box-sizing: border-box;
+  border-radius: 4px;
+  box-shadow: 3px 6px 40px #000;
+  color: white;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.form select {
+  padding: 2px 53px;
+}
+
+.form .input {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px 0px;
+}
+
+.form button:nth-child(1) {
+  margin: auto;
+  color: white;
+  background: transparent;
+  border: none;
+  font-size: larger;
+  cursor: pointer;
+  margin-left: 80%;
+}
+
+.form button {
+  padding: "5px 15px";
+  width: 100px;
+  margin: auto;
+}
+
+.custom-select .MuiOutlinedInput-notchedOutline {
+  border: 2px solid rgb(245, 245, 247);
+}
+
+.custom-select .MuiOutlinedInput-notchedOutline:hover {
+  border: 2px solid rgb(245, 245, 247);
+}
+
+.css-y7gml2-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+  color: white !important;
+}
