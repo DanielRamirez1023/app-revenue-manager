@@ -88,6 +88,7 @@ const App = () => {
             />
           </div>
           <div>
+            {movimientos.length>0 ?             
             <TodoList
               valueSearch={valueSearch}
               movimientos={movimientos}
@@ -95,7 +96,8 @@ const App = () => {
               setEdit={setEdit}
               filtro={filtro}
               setOpen={setOpen}
-            />
+            /> : <p>Aun no hay movimientos...</p>}
+
           </div>
         </div>
       </main>

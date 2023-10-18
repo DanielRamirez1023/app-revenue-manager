@@ -89,7 +89,7 @@ export const Form = ({ movimientos, setMovimientos, edit, setEdit, saldoFinal, s
 
   return (
     <form className="form" onSubmit={handleSubmit}>
-      <button className onClick={() => setOpen(false)}>
+      <button onClick={() => setOpen(false)}>
         X
       </button>
       <h1>Registro</h1>

@@ -62,3 +62,7 @@ header input {
   justify-content: space-between;
   align-items: center;
 }
+
+p {
+  color: gray;
+}
